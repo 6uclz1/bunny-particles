@@ -6,7 +6,7 @@ import React from "react";
 import { useGLTF } from "@react-three/drei";
 
 export function Model(props) {
-  const { nodes } = useGLTF("/bun_zipper.gltf");
+  const { nodes } = useGLTF("./bun_zipper.gltf");
 
   return (
     <group {...props} dispose={null}>
@@ -22,4 +22,4 @@ export function Model(props) {
   );
 }
 
-useGLTF.preload("/bun_zipper.gltf");
+useGLTF.preload("./bun_zipper.gltf");

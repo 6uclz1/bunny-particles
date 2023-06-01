@@ -1,7 +1,7 @@
 "use client";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Center } from "@react-three/drei";
-import { Model } from "../Model";
+import { Model } from "./Model";
 
 export default function Home() {
   return (
